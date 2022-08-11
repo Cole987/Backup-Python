@@ -1,8 +1,8 @@
 import dirsync
 import os
 
-src = "W:\TEMP"
-dest = "Z:\Data\Archive\ArchiveTemp"
+src = "Your source"
+dest = "Your destination"
 
 if os.path.exists(dest):
     dirsync.sync(src, dest, 'sync', purge=True)
